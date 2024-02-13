@@ -2116,7 +2116,7 @@ transform: translate(397px, 707px);
   transform: translate(24px, 690px);
 }
 
-@media (max-width:100px){
+@media (max-width:1000px){
   .apps{
     margin-top: 120px;
   }
@@ -2130,6 +2130,9 @@ transform: translate(397px, 707px);
   }
   .apps .info{
     max-width: 404px;
+  }
+  .apps .figures{
+    height: 450px;
   }
   .apps .figure-masterclass figure{
     transform: translate(438px, -264px);
@@ -2159,7 +2162,7 @@ transform: translate(397px, 707px);
     transform: scale(.8) translate(14px, 339px);
   }
   .apps .figure-books figure{
-    transform: translate(43px -94px);
+    transform: translate(43px,-94px);
   }
   .apps .figure-books figure img{
     width: 330px;
@@ -2188,7 +2191,7 @@ transform: translate(397px, 707px);
   .apps .info{
     max-width: none;
   }
-  .apps figures{
+  .apps .figures{
     display: block;
     height: auto;
   }
